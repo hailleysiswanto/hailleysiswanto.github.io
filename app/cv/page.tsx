@@ -93,10 +93,7 @@ export default function CVPage() {
       <p className="cv-contact">
         {profile.location} <span>✶</span>{" "}
         <a href={`tel:+1${profile.phone.replace(/\D/g, "")}`}>{profile.phone}</a> <span>✶</span>{" "}
-        <a href={`mailto:${profile.email}`}>{profile.email}</a> <span>✶</span>{" "}
-        <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
+        <a href={`mailto:${profile.email}`}>{profile.email}</a>
       </p>
 
       <div className="rule" />
